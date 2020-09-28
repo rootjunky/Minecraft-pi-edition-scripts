@@ -1,0 +1,166 @@
+0 AIR - -
+1 STONE - -
+2 GRASS - -
+3 DIRT - -
+4 COBBLESTONE - -
+5 WOOD_PLANKS 0 Oak
+ 1 Spruce
+ 2 Birch
+ 3 Jungle
+6 SAPLING 0 Oak
+ 1 Spruce
+ 2 Birch
+ 3 Jungle
+7 BEDROCK - -
+8 WATER_FLOWING | WATER - -
+9 WATER_STATIONARY 0 High
+ 7 Low
+10 LAVA_FLOWING | LAVA - -
+11 LAVA_STATIONARY 0 High
+ 7 Low
+12 SAND - -
+13 GRAVEL - -
+14 GOLD_ORE - -
+15 IRON_ORE - -
+16 COAL_ORE - -
+17 WOOD 0 Oak (up/down)
+ 1 Spruce (up/down)
+ 2 Birch (up/down)
+ 3 Jungle (up/down)
+ 4 Oak (east/west)
+ 5 Spruce (east/west)
+ 6 Birch (east/west)
+ 7 Jungle (east/west)
+ 8 Oak (north/south)
+ 9 Spruce (north/south)
+ 10 Birch (north/south)
+ 11 Jungle (north/south)
+ 12 Oak (only bark)
+ 13 Spruce (only bark)
+ 14 Birch (only bark)
+ 15 Jungle (only bark)
+18 LEAVES 1 Oak leaves
+ 2 Spruce leaves
+ 3 Birch leaves
+20 GLASS - -
+21 LAPIS_LAZULI_ORE - -
+22 LAPIS_LAZULI_BLOCK - -
+24 SANDSTONE 0 Sandstone
+ 1 Chiselled Sandstone
+ 2 Smooth Sandstone
+26 BED - -
+30 COBWEB - -
+31 GRASS_TALL 0 Shrub
+ 1 Grass
+ 2 Fern
+ 3 Grass (colour by biome)
+35 WOOL 0 White
+ 1 Orange
+ 2 Magenta
+ 3 Light Blue
+ 4 Yellow
+ 5 Lime
+ 6 Pink
+ 7 Grey
+ 8 Light Grey
+ 9 Cyan
+ 10 Purple
+ 11 Blue
+ 12 Brown
+ 13 Green
+ 14 Red
+ 15 Black
+37 FLOWER_YELLOW - -
+38 FLOWER_CYAN - -
+39 MUSHROOM_BROWN - -
+40 MUSHROOM_RED - -
+41 GOLD_BLOCK - -
+42 IRON_BLOCK - -
+43 STONE_SLAB_DOUBLE 0 Stone
+ 1 Sandstone
+ 2 Wooden
+ 3 Cobblestone
+ 4 Brick
+ 5 Stone Brick
+ 6 Nether Brick
+ 7 Quartz
+44 STONE_SLAB 0 Stone
+ 1 Sandstone
+ 2 Wooden
+ 3 Cobblestone
+ 4 Brick
+ 5 Stone Brick
+ 6 Nether Brick
+ 7 Quartz
+45 BRICK_BLOCK - -
+46 TNT 0 Inactive
+ 1 Ready to explode
+47 BOOKSHELF - -
+48 MOSS_STONE - -
+49 OBSIDIAN - -
+50 TORCH 0 Standing on the floor
+ 1 Pointing east
+ 2 Pointing west
+ 3 Pointing south
+ 4 Pointing north
+51 FIRE - -
+53 STAIRS_WOOD 0 Ascending east
+ 1 Ascending west
+ 2 Ascending south
+ 3 Ascending north
+ 4 Ascending east (upside down)
+ 5 Ascending west (upside down)
+ 6 Ascending south (upside down)
+ 7 Ascending north (upside down)
+54 CHEST 2 Facing north
+ 3 Facing south
+ 4 Facing west
+ 5 Facing east
+56 DIAMOND_ORE - -
+57 DIAMOND_BLOCK - -
+58 CRAFTING_TABLE - -
+60 FARMLAND - -
+61 FURNACE_INACTIVE 2 Facing north
+ 3 Facing south
+ 4 Facing west
+ 5 Facing east
+62 FURNACE_ACTIVE 2 Facing north
+ 3 Facing south
+ 4 Facing west
+ 5 Facing east
+64 DOOR_WOOD - -
+65 LADDER 2 Facing north
+ 3 Facing south
+ 4 Facing west
+ 5 Facing east
+67 STAIRS_COBBLESTONE 0 Ascending east
+ 1 Ascending west
+ 2 Ascending south
+ 3 Ascending north
+ 4 Ascending east (upside down)
+ 5 Ascending west (upside down)
+ 6 Ascending south (upside down)
+ 7 Ascending north (upside down)
+71 DOOR_IRON - -
+73 REDSTONE_ORE - -
+78 SNOW 0 Lowest
+ 7 Highest
+79 ICE - -
+80 SNOW_BLOCK - -
+81 CACTUS - -
+82 CLAY - -
+83 SUGAR_CANE - -
+85 FENCE - -
+89 GLOWSTONE_BLOCK - -
+95 BEDROCK_INVISIBLE - -
+98 STONE_BRICK 0 Stone brick
+ 1 Mossy stone brick
+ 2 Cracked stone brick
+ 3 Chiseled stone brick
+102 GLASS_PANE - -
+103 MELON - -
+107 FENCE_GATE - -
+246 GLOWING_OBSIDIAN - -
+247 NETHER_REACTOR 0 Unused
+ 1 Active
+ 2 Stopped / used up

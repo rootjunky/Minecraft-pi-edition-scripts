@@ -1,0 +1,34 @@
+rename the worlds.
+cd /home/pi/.minecraft/games/com.mojang/minecraftWorlds
+
+change steve charactor.
+https://skins4minecraft.com/
+https://www.minecraftskins.net/
+cd /opt/minecraft-pi/data/images/mob/
+sudo cp /opt/minecraft-pi/data/images/mob/char.png steve.png
+sudo cp /home/pi/Downloads/ironmen.png /opt/minecraft-pi/data/images/mob/
+sudo cp /opt/minecraft-pi/data/images/mob/ironman.png char.png
+
+Kill the game.
+Kill minecraft game. 
+control alt F1
+killall minecraft-pi
+control alt F7
+
+
+
+Survival Mode setup
+First, get bsdif using this terminal command:
+sudo apt-get install bsdiff
+Now you need to download the patch.
+Move the patch to the /opt/minecraft-pi folder
+sudo bash
+chown pi minecraft-pi (to change the owner of the file to your user not root)
+(DON'T CLOSE THE TERMINAL)Right click the minecraft-pi folder, Properties, Permissions, Change Content, and set to Anyone.
+bspatch minecraft-pi mcpipatched survival.bsdiff
+Now you should have a mcpipatched file inside your minecraft-pi folder. Rename that file to minecraft-pi but before you do this rename the current minecraft-pi file to anything else you want and THEN rename mcpipatched to minecraft-pi.
+sudo cp minecraft-pi minecraft-pi-stock
+sudo cp mcpipatched minecraft-pi
+Now launch Minecraft Pi from the Games list and have fun!
+
+
